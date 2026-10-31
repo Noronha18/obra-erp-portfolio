@@ -18,10 +18,6 @@ A fundação com frontend, backend e PostgreSQL foi implementada e validada em a
 
 Os módulos de orçamento, execução, compras e financeiro permanecem no planejamento. Não há dados reais de clientes, credenciais ou acesso à instalação operacional neste repositório.
 
-## Processo de engenharia
-
-O projeto utiliza desenvolvimento assistido por IA: especificações e planejamento com Astra, implementação com DeepSeek via OpenCode e revisão independente com GPT-6.1 Sol. As decisões, o escopo e a validação de negócio são conduzidos pelo responsável pelo projeto. O uso dessas ferramentas é declarado para tornar o processo transparente.
-
 ## Próximas entregas públicas
 
 - Estudo de caso com decisões arquiteturais e limitações.

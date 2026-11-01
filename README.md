@@ -23,7 +23,7 @@ O desenvolvimento é assistido por ferramentas de IA, com separação entre plan
 ## Andamento
 
 - Fundação da aplicação, autenticação e controle de acesso implementados e validados em ambiente de desenvolvimento.
-- Próxima entrega em implementação: cadastros operacionais e sua interface.
+- Primeiros cadastros operacionais e sua interface implementados e revisados, com testes de isolamento entre clientes.
 - Produto ainda em desenvolvimento; sem demonstração pública executável neste repositório.
 
 Este diário não publica dados de clientes, regras internas, credenciais ou detalhes de infraestrutura. Resultados de testes mencionados pertencem ao projeto privado e ainda não são reproduzíveis a partir deste repositório público.

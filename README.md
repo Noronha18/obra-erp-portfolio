@@ -1,28 +1,33 @@
-# Obra ERP — portfólio
+# Obra ERP — diário técnico
 
-Projeto em desenvolvimento de um ERP para construtoras e incorporadoras de pequeno e médio porte. Primeira etapa: orçamento, execução, compras e financeiro de obras.
+Projeto de aplicação web de gestão empresarial em desenvolvimento por **Emmanuel Noronha**. Este espaço apresenta uma visão resumida do trabalho para recrutadores. O código e a documentação operacional permanecem privados.
 
-Este repositório apresenta a evolução técnica pública do projeto. A implementação operacional é privada. Ainda não há demonstração pública executável aqui.
+## Stack
 
-## Arquitetura
+Python · Django · Django REST Framework · PostgreSQL · React · TypeScript · containers · Git/GitHub.
 
-- React e TypeScript para interface responsiva.
-- Django e Django REST Framework para regras de negócio e API.
-- PostgreSQL para persistência relacional.
-- Monólito modular e implantação por containers.
-- Preparação para múltiplos clientes, com autorização e isolamento no servidor.
+## Competências trabalhadas
 
-## Estado verificável
+- Construção de APIs REST com validação de entrada e persistência relacional.
+- Autenticação por sessão, proteção CSRF e autorização por papel.
+- Isolamento de dados entre clientes e testes de acesso indevido.
+- Interfaces responsivas com tratamento de erros e respostas assíncronas.
+- Migrações de banco, testes automatizados e validação de implantação.
 
-A fundação com frontend, backend e PostgreSQL foi implementada e validada em ambiente isolado. Foram exercitados endpoint de saúde, build do frontend, migrações e persistência. Autenticação, empresas e isolamento entre clientes estão em implementação e ainda não são apresentados como recursos aprovados.
+## Como o trabalho é conduzido
 
-Os módulos de orçamento, execução, compras e financeiro permanecem no planejamento. Não há dados reais de clientes, credenciais ou acesso à instalação operacional neste repositório.
+As entregas partem de especificações pequenas, seguem para implementação e passam por revisão e testes antes da implantação. O processo verifica também cenários negativos: permissões insuficientes, sessão expirada, falhas de rede e respostas atrasadas.
 
-## Próximas entregas públicas
+O desenvolvimento é assistido por ferramentas de IA, com separação entre planejamento, implementação e revisão. As decisões técnicas e os resultados precisam de evidências; sugestões das ferramentas não são tratadas como aprovação automática.
 
-- Estudo de caso com decisões arquiteturais e limitações.
-- Evidências reproduzíveis de testes sobre código demonstrativo publicado.
-- Demonstração independente com dados inteiramente fictícios.
-- Capturas e instruções de execução quando a versão demonstrativa existir.
+## Andamento
 
-Até essas entregas, este é um registro de projeto em andamento, não uma amostra de código executável.
+- Fundação da aplicação, autenticação e controle de acesso implementados e validados em ambiente de desenvolvimento.
+- Próxima entrega em implementação: cadastros operacionais e sua interface.
+- Produto ainda em desenvolvimento; sem demonstração pública executável neste repositório.
+
+Este diário não publica dados de clientes, regras internas, credenciais ou detalhes de infraestrutura. Resultados de testes mencionados pertencem ao projeto privado e ainda não são reproduzíveis a partir deste repositório público.
+
+## Contato
+
+[Perfil de Emmanuel Noronha no GitHub](https://github.com/Noronha18).
